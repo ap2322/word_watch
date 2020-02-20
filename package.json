@@ -17,20 +17,21 @@
     "babel-register": "^6.24.1",
     "chai": "^4.0.2",
     "css-loader": "^0.28.4",
-    "jquery": "^3.2.1",
+    "jquery": "^3.4.1",
     "jsdom": "^11.1.0",
     "mocha": "^3.4.2",
     "mocha-webpack": "^0.7.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "sass-loader": "^6.0.6",
     "sinon": "^3.0.0",
     "style-loader": "^0.18.2",
     "webpack": "^3.5.4",
-    "webpack-dev-server": "^2.7.1",
+    "webpack-dev-server": "^2.11.5",
     "webpack-node-externals": "^1.6.0"
   },
   "dependencies": {
-    "axios": "^0.16.2"
+    "axios": "^0.19.2",
+    "chai-http": "^4.3.0"
   },
   "author": "",
   "license": "ISC"
