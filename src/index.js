@@ -62,6 +62,10 @@ async function postOneWord(word) {
   const url = "https://wordwatch-api.herokuapp.com/api/v1/words"
   const response = await fetch(url,
     { method: "POST",
+      headers: {
+                'Content-Type': 'application/json'
+                // 'Content-Type': 'application/x-www-form-urlencoded'
+              },
       body: addWord
     }
   })
